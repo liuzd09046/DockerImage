@@ -17,7 +17,7 @@ RUN mkdir -p /interactive/install-tools/
 
 
 #安装 
-RUN yum install -y vim less wget curl gcc automake autoconf libtool make gcc-c++ zlib zip unzip
+RUN yum install -y vim less wget curl gcc automake autoconf libtool make gcc-c++ zlib zip unzip bind-utils  
 
 #安装perl
 WORKDIR  /interactive/install-tools/
